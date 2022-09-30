@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+}
+
+.container {
+    width: 1440px;
+    height: 900px;
+    background-color: hsl(217, 54%, 11%);
+    position: relative;
+
+}
+
+.main-div {
+    width: 350px;
+    height: 596px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    position: absolute;
+    margin: 152px 545px;
+}
+
+.top-div {
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    margin: 24px;
+    cursor: pointer;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.middle-div {
+     width: 302px; 
+     margin: 24px;
+}
+
+.header {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27.72px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+
+}
+
+.para {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    color: hsl(215, 51%, 70%);
+    margin-top: 16px;
+    cursor: pointer;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 16px;
+
+}
+
+.eth {
+    size: 16px;
+    font-weight: 600;
+    line-height: 20.16px;
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+
+}
+
+.eth img,
+.time img {
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.time {
+    size: 16px;
+    font-weight: 400;
+    line-height: 20.16px;
+    color: hsl(215, 51%, 70%);
+    cursor: pointer;
+
+}
+
+.line {
+    width: 302px;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    margin: 24px;
+}
+
+.bottom-div {
+    display: flex;
+    flex-direction: row;
+    margin: 24px;
+}
+
+.profile-img {
+    width: 33px;
+    height: 33px;
+    margin-right: 16px;
+    margin-top: -10px;
+    border-radius: 360%;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+
+}
+
+.profile-info {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.16px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+.profile-info span {
+    color: hsl(215, 51%, 70%);
+}
+
+.attribution {
+    padding-top: 60%;
+    color: #ffffff;
+}
+
+.attribution a {
+    text-decoration: none;
+}
+
+.header:active,
+.profile-info:active {
+    color: hsl(178, 100%, 50%);
+
+}
+
+@media screen and (max-width:375px) {
+    .container{
+        width: 375px;
+        height: 667px;
+        position: relative;
+    }
+    .main-div {
+        width: 327px;
+        height: 543px;
+        border-radius: 15px;
+        background-color: hsl(216, 50%, 16%);
+        position: absolute;
+        margin: 62px 24px;
+    }
+    .top-div{
+        width: 278px;
+        height: 278px;
+        border-radius: 8px;
+        margin: 24px;
+    }
+    .middle-div{
+        margin-top: 24px;
+    }
+    .profile-info{
+        font-size: 15px;
+        line-height: 18.9px;
+    }
+    .info{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18.9px;
+    }
+    .line{
+        width: 278px;
+        margin: 12px 24px;
+    }
+    .info{
+        width: 278px;
+    }
+
+}
