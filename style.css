@@ -5,20 +5,22 @@
 }
 
 .container {
-    width: 1440px;
-    height: 900px;
+    width: 100vw;
+    height: 100vh;
     background-color: hsl(217, 54%, 11%);
-    position: relative;
+    /* position: relative; */
 
 }
 
 .main-div {
     width: 350px;
     height: 596px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: hsl(216, 50%, 16%);
     border-radius: 15px;
-    position: absolute;
-    margin: 152px 545px;
 }
 
 .top-div {
@@ -160,7 +162,7 @@
 }
 
 .attribution {
-    padding-top: 53%;
+    padding-top: 43%;
     color: #ffffff;
 }
 
@@ -187,7 +189,6 @@
         border-radius: 15px;
         background-color: hsl(216, 50%, 16%);
         position: absolute;
-        margin: 62px 24px;
     }
 
     .top-div {
@@ -223,5 +224,8 @@
     
 .overlay{
     display: none;
+}
+.attribution{
+    padding-top:3% ;
 }
 }
